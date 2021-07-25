@@ -23,8 +23,10 @@ CNN——55.555556%
 ST_GCN——27.3504274%  
 
 ## 代码运行步骤：  
-先运行数据集增强模型——data_enhance.py  
-再分别独立运行三个网络模型——RNN.py，CNN.py，ST_GCN.py  
+解压人体姿态序列分类.zip至文件夹（文件夹名：人体姿态序列分类），将data_enhance.py和网络py文件置于/人体姿态序列分类路径下，与tool、data文件夹在同一路径中  
+运行数据集增强模型——data_enhance.py  
+分别独立运行三个网络模型——RNN.py，CNN.py，ST_GCN.py  
+
 
 
 ## 需要的模板库
